@@ -1,0 +1,4 @@
+1. Have a site that uses GMaps (which it is by no means slow, it still consumes a couple of seconds on every load)
+2. You are working on the page with the map but on something else (other JS, CSS, ui, etc)
+3. Don't load GMaps. Stub it.
+Time saved: 2-3 seconds/per page load. Brain power: priceless.
