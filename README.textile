@@ -1,4 +1,4 @@
-h1. Stub google maps!
+h1. Stub Google Maps!
 
 *Using GMaps - JS API?*
 It is by no means slow, but it still consumes a couple of seconds on every load..
