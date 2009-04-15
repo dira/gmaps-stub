@@ -1,10 +1,10 @@
 h1. Stub google maps!
 
-h2. Using GMaps - JS API? 
+*Using GMaps - JS API?*
 It is by no means slow, but it still consumes a couple of seconds on every load..
 
-h2. You are working on the map page but on something else? (other JS, CSS, ui, etc)
+*You are working on the map page but on something else?* (other JS, CSS, ui, etc)
 Don't let GMaps 'eat' your time on every load. Stub it.
 Time saved: 2-3 seconds/per page load. Brain power: priceless.
 
-_Thanks to: "evilchelu":http://github.com/evilchelu/ for evangelising "saving seconds":http://www.randsinrepose.com/archives/2008/04/21/saving_seconds.html_
+Thanks to: "evilchelu":http://github.com/evilchelu/ for evangelising "saving seconds":http://www.randsinrepose.com/archives/2008/04/21/saving_seconds.html
