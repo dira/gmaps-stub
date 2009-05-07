@@ -86,6 +86,7 @@ function GMarker() {
 
 function GMapType() {}
 function GMapTypeControl() {}
+function GSmallMapControl() {}
 function GLargeMapControl() {}
 
 function GCopyrightCollection() {
