@@ -74,13 +74,18 @@ function GLatLng() {
     return 0;
   };
 }
-function GIcon() {}
+function GIcon() {
+  this.image = "http://fake.image.com/1";
+}
 function GSize() {}
 function GMarker() {
   this.bindInfoWindow = function() {}
   this.openInfoWindow = function() {}
   this.getLatLng = function() {
     return new GLatLng();
+  }
+  this.getIcon = function() {
+    return new GIcon();
   }
 }
 
