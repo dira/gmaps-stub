@@ -84,6 +84,8 @@ function GMarker() {
   this.getLatLng = function() {
     return new GLatLng();
   }
+  this.setLatLng = function(latlng) {
+  }
   this.getIcon = function() {
     return new GIcon();
   }
