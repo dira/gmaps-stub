@@ -8,8 +8,15 @@ G_NORMAL_MAP = {1:1
 Globals = {}
 function GMap2(container) {
   Globals['container'] = container;
+  this.getContainer = function() {
+    return Globals['container'];
+  }
   this.enableScrollWheelZoom = function() {}
-  this.addControl = function() {}
+  this.addControl = function(control) {
+    try {
+      control.initialize(this);
+    } catch(e) {}
+  }
   this.addMapType = function() {}
   this.getMapTypes = function() { return []; }
   this.getCurrentMapType = function() {
@@ -52,7 +59,9 @@ GEvent = {1:1
     }
   }
   ,removeListener : function() {}
+  ,addDomListener: function(source, event, handler) {}
 }
+
 function GProjection() {
   this.fromLatLngToPixel = function(latlng, zoom) {
     return new GPoint();
@@ -107,3 +116,9 @@ function GTileLayer() {}
 
 function GMercatorProjection() {}
 function GClientGeocoder() {}
+
+function GControl() {}
+
+function GPolyline(lanLngs, color, weight, opacity, opts) {
+  this.isHidden = function(){ return false }
+}
