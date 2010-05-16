@@ -7,4 +7,6 @@ It is by no means slow, but it still consumes a couple of seconds on every load.
 Don't let GMaps 'eat' your time on every load. Stub it.
 Time saved: 2-3 seconds/per page load. Brain power: priceless.
 
+!http://img.skitch.com/20100516-m19nmymhb4chkhhcgrc3uub92.jpg!
+
 Thanks to: "evilchelu":http://github.com/evilchelu/ for evangelising "saving seconds":http://www.randsinrepose.com/archives/2008/04/21/saving_seconds.html
