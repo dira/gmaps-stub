@@ -60,6 +60,7 @@ GEvent = {1:1
   }
   ,removeListener : function() {}
   ,addDomListener: function(source, event, handler) {}
+  ,bind: function(source, event, object, method) {}
 }
 
 function GProjection() {
@@ -121,4 +122,6 @@ function GControl() {}
 
 function GPolyline(lanLngs, color, weight, opacity, opts) {
   this.isHidden = function(){ return false }
+  this.hide = function() {}
+  this.show = function() {}
 }
