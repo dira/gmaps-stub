@@ -37,16 +37,13 @@ function GMap2(container) {
   this.getZoom = function() {}
   this.checkResize = function() {}
   this.getBounds = function() {
-    return {1:1
-      ,getNorthEast : function() {}
-      ,getSouthWest : function() {}
-      ,isFullLat : function() { return true; }
-    }
+    return new GLatLngBounds();
   }
   this.fromContainerPixelToLatLng = function() {
     return new GLatLng();
   }
   this.addOverlay = function() {}
+  this.removeOverlay = function() {}
 }
 
 GEvent = {1:1
@@ -111,7 +108,14 @@ function GCopyrightCollection() {
 }
 function GCopyright() {}
 
-function GLatLngBounds() {}
+function GLatLngBounds() {
+  return {1:1
+    ,getNorthEast : function() {}
+    ,getSouthWest : function() {}
+    ,isFullLat : function() { return true; }
+    ,containsLatLng : function(latlng) { return true;}
+  }
+}
 
 function GTileLayer() {}
 
