@@ -44,6 +44,9 @@ function GMap2(container) {
   }
   this.addOverlay = function() {}
   this.removeOverlay = function() {}
+  this.disableScrollWheelZoom = function() {}
+  this.disableDoubleClickZoom = function() {}
+  this.enableScrollWheelZoom = function() {}
 }
 
 GEvent = {1:1
@@ -88,6 +91,7 @@ function GSize() {}
 function GMarker() {
   this.bindInfoWindow = function() {}
   this.openInfoWindow = function() {}
+  this.closeInfoWindow = function() {}
   this.getLatLng = function() {
     return new GLatLng();
   }
