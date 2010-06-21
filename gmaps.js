@@ -30,11 +30,11 @@ function GMap2(container) {
   this.setCenter = function() {}
   this.getCenter = function() {
     return {1:1
-      ,lat : function() {}
-      ,lng : function() {}
+      ,lat : function() { return 0; }
+      ,lng : function() { return 0; }
     }
   }
-  this.getZoom = function() {}
+  this.getZoom = function() { return 3; }
   this.checkResize = function() {}
   this.getBounds = function() {
     return new GLatLngBounds();
